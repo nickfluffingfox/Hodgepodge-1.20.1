@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "bountifulharvest",
+	"version": "${version}",
+	"name": "Bountiful Harvest",
+	"description": "Food-Decor mod by nickfluffingfox",
+	"authors": [
+		"nickfluffingfox"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bountifulharvest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nick.bountifulharvest.BountifulHarvest"
+		],
+		"client": [
+			"net.nick.bountifulharvest.BountifulHarvestClient"
+		],"fabric-datagen": [
+			"net.nick.bountifulharvest.BountifulHarvestDataGenerator"
+		]
+	},
+	"mixins": [
+		"bountifulharvest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
