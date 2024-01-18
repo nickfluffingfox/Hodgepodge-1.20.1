@@ -2,6 +2,9 @@ package net.nick.bountifulharvest;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.nick.bountifulharvest.block.ModBlocks;
+import net.nick.bountifulharvest.item.ModItemGroups;
+import net.nick.bountifulharvest.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,8 @@ public class BountifulHarvest implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Sup Bitches B3");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }

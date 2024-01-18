@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bountifulharvest:item/steel_ingot"
+  }
+}
