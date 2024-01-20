@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "bountifulharvest",
+	"id": "hodgepodge",
 	"version": "${version}",
-	"name": "Bountiful Harvest",
-	"description": "Food-Decor mod by nickfluffingfox",
+	"name": "Hodgepodge",
+	"description": "Miscellaneous mod!",
 	"authors": [
 		"nickfluffingfox"
 	],
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/bountifulharvest/icon.png",
+	"icon": "assets/hodgepodge/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.nick.bountifulharvest.BountifulHarvest"
+			"net.nick.hodgepodge.BountifulHarvest"
 		],
 		"client": [
-			"net.nick.bountifulharvest.BountifulHarvestClient"
+			"net.nick.hodgepodge.HodgepodgeClient"
 		],"fabric-datagen": [
-			"net.nick.bountifulharvest.BountifulHarvestDataGenerator"
+			"net.nick.hodgepodge.HodgepodgeDataGenerator"
 		]
 	},
 	"mixins": [
-		"bountifulharvest.mixins.json"
+		"hodgepodge.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.3",
