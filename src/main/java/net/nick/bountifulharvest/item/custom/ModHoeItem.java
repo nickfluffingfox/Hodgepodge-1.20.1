@@ -28,6 +28,7 @@ public class ModHoeItem extends MiningToolItem {
         super((float)attackDamage, attackSpeed, material, BlockTags.HOE_MINEABLE, settings);
     }
 
+
     public ActionResult useOnBlock(ItemUsageContext context) {
         World world = context.getWorld();
         BlockPos blockPos = context.getBlockPos();

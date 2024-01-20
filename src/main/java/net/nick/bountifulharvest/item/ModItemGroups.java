@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STEEL_BARS);
                         entries.add(ModBlocks.STEEL_GRATE);
                         entries.add(ModBlocks.STEEL_ROD);
+                        entries.add(ModBlocks.PLANTER_BARREL);
+                        entries.add(ModBlocks.STEEL_LANTERN);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_CLEAVER);

@@ -21,12 +21,18 @@ public class ModItems {
             new Item(new FabricItemSettings().rarity(Rarity.COMMON)));
 
     public static final Item STEEL_CLEAVER = registerItem("steel_cleaver",
-            new AxeItem(ToolMaterials.DIAMOND, 4, -2.4F,
+            new AxeItem(ToolMaterials.DIAMOND, 2, -2.4F,
                     new FabricItemSettings().rarity(Rarity.COMMON).maxCount(1)));
     public static final Item STEEL_SICKLE = registerItem("steel_sickle",
-            new HoeItem(ToolMaterials.DIAMOND, 2, -2.2F,
+            new HoeItem(ToolMaterials.DIAMOND, 0, -2.2F,
                     new FabricItemSettings().rarity(Rarity.COMMON).maxCount(1)));
 
+    public static final Item HARDENED_STEEL_CLEAVER = registerItem("hardened_steel_cleaver",
+            new AxeItem(ToolMaterials.DIAMOND, 4, -2.4F,
+                    new FabricItemSettings().rarity(Rarity.COMMON).maxCount(1)));
+    public static final Item HARDENED_STEEL_SICKLE = registerItem("hardened_steel_sickle",
+            new HoeItem(ToolMaterials.DIAMOND, 2, -2.2F,
+                    new FabricItemSettings().rarity(Rarity.COMMON).maxCount(1)));
 
 
 

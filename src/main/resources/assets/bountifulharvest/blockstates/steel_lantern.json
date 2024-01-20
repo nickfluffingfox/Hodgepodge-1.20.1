@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "bountifulharvest:block/steel_lantern"
+    },
+    "hanging=true": {
+      "model": "bountifulharvest:block/steel_lantern_hanging"
+    }
+  }
+}

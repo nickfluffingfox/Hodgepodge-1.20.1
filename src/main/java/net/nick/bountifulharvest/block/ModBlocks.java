@@ -25,8 +25,13 @@ public class ModBlocks {
     public static final Block STEEL_GRATE = registerBlock("steel_grate",
             new TrapdoorBlock(FabricBlockSettings.create().mapColor(MapColor.IRON_GRAY)
                     .requiresTool().strength(6.0f).nonOpaque().sounds(BlockSoundGroup.NETHERITE)
-                    .allowsSpawning(Blocks::never), BlockSetType.IRON));
+                    .allowsSpawning(Blocks::never), BlockSetType.STONE));
 
+    public static final Block STEEL_LANTERN = registerBlock("steel_lantern",
+            new LanternBlock(FabricBlockSettings.copyOf(Blocks.LANTERN)));
+
+    public static final Block PLANTER_BARREL = registerBlock("planter_barrel",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOD)));
 
 private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

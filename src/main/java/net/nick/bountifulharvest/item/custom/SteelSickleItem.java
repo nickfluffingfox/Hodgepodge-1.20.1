@@ -1,4 +1,6 @@
 package net.nick.bountifulharvest.item.custom;
 
-public class SteelSickleItem {
+import net.minecraft.item.MiningToolItem;
+
+public class SteelSickleItem extends MiningToolItem {
 }

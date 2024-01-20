@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "bountifulharvest:block/planter_barrel_bottom",
+    "side": "bountifulharvest:block/planter_barrel_side",
+    "top": "bountifulharvest:block/planter_barrel_top"
+  }
+}
