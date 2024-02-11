@@ -11,11 +11,11 @@ import net.nick.hodgepodge.Hodgepodge;
 import net.nick.hodgepodge.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup BOUNTIFULHARVEST = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Hodgepodge.MOD_ID, "bountifulharvest"),
+    public static final ItemGroup HODGEPODGE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Hodgepodge.MOD_ID, "hodgepodge"),
             FabricItemGroup.builder()
-                    .displayName(Text.translatable("itemGroup.bountifulharvest"))
-                    .icon(() -> new ItemStack(ModItems.STEEL_CLEAVER))
+                    .displayName(Text.translatable("itemGroup.hodgepodge"))
+                        .icon(() -> new ItemStack(ModItems.STEEL_CLEAVER))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.STEEL_BLEND);
                         entries.add(ModBlocks.STEEL_BLOCK);
@@ -29,7 +29,6 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_CLEAVER);
                         entries.add(ModItems.STEEL_SICKLE);
                         entries.add(ModItems.SHARPENED_STEEL_CLEAVER);
-                        entries.add(ModItems.SHARPENED_STEEL_SICKLE);
                     }).build());
 
     public static void registerItemGroups() {

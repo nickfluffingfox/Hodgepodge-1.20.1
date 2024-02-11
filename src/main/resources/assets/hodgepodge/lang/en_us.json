@@ -1,18 +1,19 @@
 {
-  "item.bountifulharvest.steel_blend": "Steel Blend",
-  "item.bountifulharvest.steel_ingot": "Steel Ingot",
-  "item.bountifulharvest.steel_nugget": "Steel Nugget",
-  "item.bountifulharvest.steel_cleaver": "Steel Cleaver",
-  "item.bountifulharvest.steel_sickle": "Steel Sickle",
-  "item.bountifulharvest.sharpened_steel_cleaver": "Sharpened Steel Cleaver",
+  "item.hodgepodge.steel_blend": "Steel Blend",
+  "item.hodgepodge.steel_ingot": "Steel Ingot",
+  "item.hodgepodge.steel_nugget": "Steel Nugget",
+  "item.hodgepodge.steel_cleaver": "Steel Cleaver",
+  "item.hodgepodge.steel_sickle": "Steel Sickle",
+  "item.hodgepodge.sharpened_steel_cleaver": "Sharpened Steel Cleaver",
 
-  "block.bountifulharvest.steel_block": "Steel Block",
-  "block.bountifulharvest.steel_bars": "Steel Bars",
-  "block.bountifulharvest.steel_rod": "Steel Rod",
-  "block.bountifulharvest.steel_grate": "Steel Grate",
-  "block.bountifulharvest.planter_barrel": "Planter Barrel",
-  "block.bountifulharvest.steel_lantern": "Steel Lantern",
+  "block.hodgepodge.steel_block": "Steel Block",
+  "block.hodgepodge.steel_bars": "Steel Bars",
+  "block.hodgepodge.steel_rod": "Steel Rod",
+  "block.hodgepodge.steel_grate": "Steel Grate",
+  "block.hodgepodge.planter_barrel": "Planter Barrel",
+  "block.hodgepodge.steel_lantern": "Steel Lantern",
 
+  "enchantment.hodgepodge.butchering": "Butchering",
 
-  "itemGroup.bountifulharvest": "Hodgepodge"
+  "itemGroup.hodgepodge": "Hodgepodge"
 }

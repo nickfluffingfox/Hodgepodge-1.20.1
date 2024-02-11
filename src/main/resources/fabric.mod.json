@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.nick.hodgepodge.BountifulHarvest"
+			"net.nick.hodgepodge.Hodgepodge"
 		],
 		"client": [
 			"net.nick.hodgepodge.HodgepodgeClient"

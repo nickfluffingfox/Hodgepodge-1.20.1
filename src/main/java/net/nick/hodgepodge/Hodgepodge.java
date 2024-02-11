@@ -3,6 +3,7 @@ package net.nick.hodgepodge;
 import net.fabricmc.api.ModInitializer;
 
 import net.nick.hodgepodge.block.ModBlocks;
+import net.nick.hodgepodge.enchantment.ModEnchantments;
 import net.nick.hodgepodge.item.ModItemGroups;
 import net.nick.hodgepodge.item.ModItems;
 import org.slf4j.Logger;
@@ -17,5 +18,6 @@ public class Hodgepodge implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModEnchantments.registerModEnchantments();
 	}
 }

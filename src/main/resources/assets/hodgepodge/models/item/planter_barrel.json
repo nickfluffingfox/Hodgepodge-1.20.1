@@ -1,7 +1,3 @@
 {
-<<<<<<< HEAD:src/main/resources/assets/hodgepodge/models/item/planter_barrel.json
   "parent": "hodgepodge:block/planter_barrel"
-=======
-  "parent": "bountifulharvest:block/planter_barrel"
->>>>>>> origin/master:src/main/resources/assets/bountifulharvest/models/item/planter_barrel.json
 }
